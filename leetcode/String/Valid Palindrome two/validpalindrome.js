@@ -33,6 +33,7 @@ var validPalindrome = function(s) {
     return true
 };
 
+//这个辅助函数就可以将里面的串都检测是否为回文串
 function valid(str,l,r){
     while(l<r){
         if(str[l++] !== str[r--])
