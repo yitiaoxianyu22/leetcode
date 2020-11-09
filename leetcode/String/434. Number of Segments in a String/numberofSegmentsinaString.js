@@ -32,6 +32,6 @@ var countSegments = function (s) {
     // s =s.trim();
     // return s.length === 0 ? 0 : s.split(/\s+/).length
     let res = s.match(/\S+/g)
-    return res ?res.length : 0
+    return res ? res.length : 0
 };
 console.log(countSegments("love live! mu'sic forever"))
